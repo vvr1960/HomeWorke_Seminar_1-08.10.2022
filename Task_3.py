@@ -10,17 +10,13 @@ x = float(input("Введите значение коордитнаты Х: "))
 y = float(input("Введите значение координаты Y: "))
 
 if x > 0 and y > 0:
-    quarter_number = 1
-    print(f'Точка находится в {quarter_number} четверти плоскости')   
+    print(f'Точка находится в 1 четверти плоскости')   
 elif x < 0 and y > 0:
-    quarter_number = 2
-    print(f'Точка находится в {quarter_number} четверти плоскости')
+    print(f'Точка находится во 2 четверти плоскости')
 elif x < 0 and y < 0:
-    quarter_number = 3
-    print(f'Точка находится в {quarter_number} четверти плоскости')
+    print(f'Точка находится в 3 четверти плоскости')
 elif x > 0 and y < 0:
-    quarter_number = 4
-    print(f'Точка находится в {quarter_number} четверти плоскости')    
+    print(f'Точка находится в 4 четверти плоскости')    
 else:
     print("Значения X и Y не должны быть равны 0")
 
